@@ -1,0 +1,17 @@
+*{padding: 0; margin:0; list-style: none;}
+
+.wrap {
+    background-color: black;
+    display: flex;
+    justify-content: space-between; /* 수평 정렬 */
+    align-items: center; /* 한 줄 일때 수직 정렬 */
+    color:aliceblue;
+    padding: 20px;
+
+}
+
+.wrap .wrap_list{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 300px;
+}
